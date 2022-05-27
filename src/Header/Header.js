@@ -28,7 +28,7 @@ function Header() {
     </div>
   </div>
 </nav>
-    
+    <h1>Hello</h1>
 </div>
   )
 }

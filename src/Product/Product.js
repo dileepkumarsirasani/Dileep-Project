@@ -3,7 +3,7 @@ const Product = ({data}) => {
   return (
     <div className="row">
         {data.map(data =>
-        <div className='col-lg-3 md-4 sm-12'>
+        <div className='col-lg-3 md-4 sm-12 '>
             <div className='card border-danger mt-3' style={{"width":"18rem"}}>
                 <img className='card-img-top' src={data.recipe.image} alt="Card image cap" />
             <div className='card-body'>
@@ -13,8 +13,7 @@ const Product = ({data}) => {
                     <a href='#' className='btn btn-primary'>Buy</a>
                 </center>
             </div>
-            </div>uuhgbyug
-            
+            </div>
         </div>
         )
 

@@ -1,4 +1,29 @@
-.h1{
+.hire{
     text-align: center;
      background-color: aqua;
+}
+.navbar{
+    background-color: chocolate;
+}
+.muneer{
+    width: 100px;
+}
+#Suri{
+    display:flex;
+    justify-content: space-around;
+    color: aliceblue;
+    background-color: black;
+    margin-top: 5px;
+}
+.mass{
+    margin-right:300px ;
+}
+#car{
+    height: 400px;
+}
+
+@media screen and(min-width:768px){
+  #Suri{
+      display:block;
+    }
 }
